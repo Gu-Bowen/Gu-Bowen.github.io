@@ -1,22 +1,20 @@
-# Bowen Gu / 谷博文 — Academic Homepage V5.1
+# Bowen Gu Academic Homepage — Maintainable Bilingual Edition
 
-Bilingual static academic homepage for GitHub Pages.
+Static bilingual academic homepage for GitHub Pages.
 
-## Features
-- Native English / Chinese language switch with saved preference
-- Responsive desktop/mobile layout
-- Research, full publications, projects, detailed academic service, honors, students/openings, and contact
-- Google Scholar, DBLP, ORCID and CV links
-- GitHub Actions deployment from `master`
+## Routine content maintenance
+Academic content is separated from page markup:
 
-## Deploy
-Upload the contents of this folder to the root of the GitHub Pages repository. In **Settings → Pages**, choose **GitHub Actions** as the source. Pushing to `master` triggers deployment.
+- `data/publications.js`
+- `data/news.js`
+- `data/projects.js`
+- `data/service.js`
 
-## V5.2 publication update
+See **MAINTENANCE.md** for step-by-step editing instructions.
 
-Added three publications supplied by Bowen Gu and verified against publisher records:
-- HiRoC: Selective History Routing and Disagreement-Aware Calibration for Multimodal Conversational Emotion Recognition (2026)
-- Resource Management in 6G SAGINs: From Optimization-Based Methods to LLM-Enabled Agentic Decision Making (2026)
-- Multi-Chain of Thought Prompt Learning for Aspect-Based Sentiment Analysis (2025)
+## Deployment
+The included GitHub Actions workflow deploys pushes to the `master` branch to GitHub Pages.
 
-Recent Updates and the full journal publication list were updated accordingly.
+
+### V5.4 publication discovery
+The Publications section now supports Selected/topic/year filters and text search. Publication metadata remains editable in `data/publications.js`.
