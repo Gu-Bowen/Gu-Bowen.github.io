@@ -1,26 +1,13 @@
-# Bowen Gu — Academic Homepage
+# Bowen Gu / 谷博文 — Academic Homepage V5
 
-A lightweight, responsive academic website for Bowen Gu at Xinjiang University.
+Bilingual static academic homepage for GitHub Pages.
 
-## Deploy on GitHub Pages
+## Features
+- Native English / Chinese language switch with saved preference
+- Responsive desktop/mobile layout
+- Research, full publications, projects, detailed academic service, honors, students/openings, and contact
+- Google Scholar, DBLP, ORCID and CV links
+- GitHub Actions deployment from `master`
 
-1. Create a repository named `<your-github-username>.github.io`.
-2. Upload the **contents of this folder** to the repository root.
-3. In **Settings → Pages**, set **Source** to **GitHub Actions**.
-4. Push to `main`. The included workflow deploys the site automatically.
-5. Your site will be available at `https://<your-github-username>.github.io/`.
-
-## Included
-
-- Responsive academic homepage
-- Research, publications, projects, academic profile, prospective students, and contact
-- Downloadable academic CV: `files/Bowen_Gu_CV.pdf`
-- Google Scholar / DBLP / ORCID links
-- SEO / Open Graph metadata
-- Favicon and custom 404 page
-- GitHub Actions deployment workflow
-- `.nojekyll` for direct static hosting
-
-## Before publishing
-
-Please verify the GitHub/ORCID/profile links you want to expose publicly and update any publication metadata that changes after acceptance or pagination.
+## Deploy
+Upload the contents of this folder to the root of the GitHub Pages repository. In **Settings → Pages**, choose **GitHub Actions** as the source. Pushing to `master` triggers deployment.
