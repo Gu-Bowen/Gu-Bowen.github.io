@@ -13,6 +13,19 @@ window.ACTIVITIES = [
     "url": ""
   },
   {
+    "date": "2026.08.07–08.09",
+    "year": 2026,
+    "cityEn": "Wuhan",
+    "cityZh": "武汉",
+    "eventEn": "2026 IEEE/CIC International Conference on Communications in China (ICCC)",
+    "eventZh": "2026中国国际通信大会",
+    "type": "conference",
+    "roleEn": "Conference Participation",
+    "roleZh": "参会",
+    "talkTitle": "",
+    "url": ""
+  },
+    {
     "date": "2026.04.16–04.19",
     "year": 2026,
     "cityEn": "Wuhan",
