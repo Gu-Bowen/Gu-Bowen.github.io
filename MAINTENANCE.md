@@ -64,3 +64,26 @@ Currently used topic keys include `backscatter`, `mec`, `reconfigurable`, `ai`, 
 - When adding a new paper, copy the closest existing entry and update `topics` as well.
 
 Do not edit the filter logic in `assets/main.js` for routine publication updates.
+
+
+## Academic Activities / 学术活动
+
+Academic activities are maintained in `data/activities.js`. Add a new object at the top so the newest activity appears first.
+
+```javascript
+{
+  date: "2027.05.10–05.12",
+  year: 2027,
+  cityEn: "Beijing",
+  cityZh: "北京",
+  eventEn: "Conference Name",
+  eventZh: "会议名称",
+  type: "conference",
+  roleEn: "Conference Participation",
+  roleZh: "参会",
+  talkTitle: "",
+  url: ""
+}
+```
+
+For an invited talk, keynote, tutorial, panel, or session chair activity, change `type` and `roleEn` / `roleZh`, and add the talk title in `talkTitle` when applicable. Ordinary conference participation should remain `type: "conference"`. Keep `url` empty unless an official event or program page is available.
