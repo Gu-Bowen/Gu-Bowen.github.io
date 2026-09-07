@@ -1,5 +1,18 @@
 window.ACTIVITIES = [
   {
+    "date": "2026.08.27–08.30",
+    "year": 2026,
+    "cityEn": "Jinan",
+    "cityZh": "济南",
+    "eventEn": "THE 2026 CIC BLUE OCEAN FORUM FOR WORLDWIDE SCIENTISTS",
+    "eventZh": "2026中国通信学会科学家蓝海论坛暨《中国通信》科技前沿研讨会",
+    "type": "conference",
+    "roleEn": "Conference Participation",
+    "roleZh": "参会",
+    "talkTitle": "",
+    "url": ""
+  },
+  {
     "date": "2026.04.16–04.19",
     "year": 2026,
     "cityEn": "Wuhan",
