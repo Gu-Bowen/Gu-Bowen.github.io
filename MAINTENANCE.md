@@ -87,3 +87,8 @@ Academic activities are maintained in `data/activities.js`. Add a new object at 
 ```
 
 For an invited talk, keynote, tutorial, panel, or session chair activity, change `type` and `roleEn` / `roleZh`, and add the talk title in `talkTitle` when applicable. Ordinary conference participation should remain `type: "conference"`. Keep `url` empty unless an official event or program page is available.
+
+
+## October 2026 update
+
+The October 2026 update adds the IEEE Internet of Things Journal paper, the 2027–2029 Youth Editorial Board appointment at *Journal on Communications*, and two upcoming conference activities. These are maintained in `data/publications.js`, `data/service.js`, `data/activities.js`, and `data/news.js`. The two future events are marked as planned participation until attendance is confirmed.

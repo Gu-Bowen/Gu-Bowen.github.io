@@ -2,11 +2,31 @@ window.PUBLICATIONS = {
   "journals": [
     {
       "year": "2026",
+      "title": "Task Offloading via Hybrid Active-Passive Cooperation: Riding on Active Relaying for Backscatter Communication Enhancement",
+      "authorsHtml": "H. Qin, <strong>B. Gu*</strong>, D. Li, H. Xie, L. Wang, and X. Tao",
+      "venueHtml": "<em>IEEE Internet of Things Journal</em>, accepted in October 2026. DOI: 10.1109/JIOT.2026.3743282.",
+      "label": "SELECTED",
+      "topics": [
+        "backscatter",
+        "active-passive",
+        "mec"
+      ],
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1109/JIOT.2026.3743282"
+        }
+      ]
+    },
+    {
+      "year": "2026",
       "title": "HiRoC: Selective History Routing and Disagreement-Aware Calibration for Multimodal Conversational Emotion Recognition",
       "authorsHtml": "G. Li, H. Guo, M. Liu, Z. Wei, <strong>B. Gu</strong>, T. Gu, and D. Ma",
       "venueHtml": "<em>Journal of King Saud University - Computer and Information Sciences</em>, vol. 38, article 770, 2026.",
       "label": "",
-      "topics": ["ai"],
+      "topics": [
+        "ai"
+      ],
       "links": [
         {
           "label": "DOI",
@@ -20,7 +40,10 @@ window.PUBLICATIONS = {
       "authorsHtml": "Z. Huang, Y. Xu, <strong>B. Gu</strong>, and H. Zhang",
       "venueHtml": "<em>Advanced Information and Communication</em>, 2026(3):0012.",
       "label": "",
-      "topics": ["ai", "6g"],
+      "topics": [
+        "ai",
+        "6g"
+      ],
       "links": [
         {
           "label": "DOI",
@@ -34,7 +57,10 @@ window.PUBLICATIONS = {
       "authorsHtml": "H. Qin, <strong>B. Gu*</strong>, et al.",
       "venueHtml": "<em>IEEE Transactions on Mobile Computing</em>, to be published, 2026.",
       "label": "SELECTED",
-      "topics": ["mec", "backscatter"],
+      "topics": [
+        "mec",
+        "backscatter"
+      ],
       "links": []
     },
     {
@@ -43,7 +69,9 @@ window.PUBLICATIONS = {
       "authorsHtml": "H. Xie, D. Li, <strong>B. Gu</strong>, X. Yu, Y. Xu, and C. Tellambura",
       "venueHtml": "<em>IEEE Transactions on Communications</em>, vol. 74, pp. 8829–8842, 2026.",
       "label": "",
-      "topics": ["reconfigurable"],
+      "topics": [
+        "reconfigurable"
+      ],
       "links": []
     },
     {
@@ -52,7 +80,9 @@ window.PUBLICATIONS = {
       "authorsHtml": "Y. Liu, Y. Xu, H. Zhang, <strong>B. Gu</strong>",
       "venueHtml": "<em>IEEE Transactions on Vehicular Technology</em>, vol. 75, no. 7, pp. 15427–15432, Jul. 2026.",
       "label": "",
-      "topics": ["6g"],
+      "topics": [
+        "6g"
+      ],
       "links": []
     },
     {
@@ -61,7 +91,9 @@ window.PUBLICATIONS = {
       "authorsHtml": "Y. He, Z. He, T. Gu, <strong>B. Gu</strong>, Y. Wan, and M. Li",
       "venueHtml": "<em>Applied Sciences</em>, vol. 15, no. 22, article 12225, 2025.",
       "label": "",
-      "topics": ["ai"],
+      "topics": [
+        "ai"
+      ],
       "links": [
         {
           "label": "DOI",
@@ -75,7 +107,10 @@ window.PUBLICATIONS = {
       "authorsHtml": "<strong>B. Gu</strong>, D. Li, H. Xie, K. Yu, Q. Guan, and Y. Xu",
       "venueHtml": "<em>IEEE Transactions on Cognitive Communications and Networking</em>, vol. 11, no. 5, pp. 3317–3332, Oct. 2025.",
       "label": "SELECTED",
-      "topics": ["backscatter", "active-passive"],
+      "topics": [
+        "backscatter",
+        "active-passive"
+      ],
       "links": [
         {
           "label": "DOI",
@@ -87,9 +122,11 @@ window.PUBLICATIONS = {
       "year": "2025",
       "title": "Breaking the Interference and Fading Gridlock in Backscatter Communications: State-of-the-Art, Design Challenges, and Future Directions",
       "authorsHtml": "<strong>B. Gu</strong>, D. Li, H. Ding, G. Wang, and C. Tellambura",
-      "venueHtml": "<em>IEEE Communications Surveys &amp; Tutorials</em>, vol. 27, no. 2, pp. 870–911, Apr. 2025. · <strong>ESI Highly Cited Paper</strong>",
+      "venueHtml": "<em>IEEE Communications Surveys &amp; Tutorials</em>, vol. 27, no. 2, pp. 870–911, Apr. 2025.",
       "label": "FEATURED SURVEY",
-      "topics": ["backscatter"],
+      "topics": [
+        "backscatter"
+      ],
       "links": [
         {
           "label": "DOI",
@@ -107,7 +144,10 @@ window.PUBLICATIONS = {
       "authorsHtml": "H. Xie, D. Li, and <strong>B. Gu</strong>",
       "venueHtml": "<em>IEEE Transactions on Wireless Communications</em>, Jul. 2024.",
       "label": "",
-      "topics": ["reconfigurable", "isac"],
+      "topics": [
+        "reconfigurable",
+        "isac"
+      ],
       "links": []
     },
     {
@@ -116,7 +156,11 @@ window.PUBLICATIONS = {
       "authorsHtml": "H. Xie, D. Li, and <strong>B. Gu</strong>",
       "venueHtml": "<em>IEEE Transactions on Wireless Communications</em>, Mar. 2024.",
       "label": "",
-      "topics": ["reconfigurable", "mec", "active-passive"],
+      "topics": [
+        "reconfigurable",
+        "mec",
+        "active-passive"
+      ],
       "links": []
     },
     {
@@ -125,7 +169,10 @@ window.PUBLICATIONS = {
       "authorsHtml": "<strong>B. Gu</strong>, D. Li, and H. Xie",
       "venueHtml": "<em>IEEE Transactions on Vehicular Technology</em>, vol. 73, no. 6, pp. 9026–9031, Jun. 2024.",
       "label": "SELECTED",
-      "topics": ["mec", "backscatter"],
+      "topics": [
+        "mec",
+        "backscatter"
+      ],
       "links": [
         {
           "label": "DOI",
@@ -143,7 +190,9 @@ window.PUBLICATIONS = {
       "authorsHtml": "Y. Xu, <strong>B. Gu*</strong>, Z. Gao, D. Li, Q. Wu, and C. Yuen",
       "venueHtml": "<em>IEEE Transactions on Cognitive Communications and Networking</em>, vol. 10, no. 1, pp. 209–222, Feb. 2024. · <strong>ESI Highly Cited Paper</strong>",
       "label": "",
-      "topics": ["reconfigurable"],
+      "topics": [
+        "reconfigurable"
+      ],
       "links": [
         {
           "label": "DOI",
@@ -157,7 +206,9 @@ window.PUBLICATIONS = {
       "authorsHtml": "<strong>B. Gu</strong>, D. Li, Y. Liu, and Y. Xu",
       "venueHtml": "<em>IEEE Transactions on Communications</em>, vol. 71, no. 7, pp. 4344–4359, Jul. 2023.",
       "label": "SELECTED",
-      "topics": ["backscatter"],
+      "topics": [
+        "backscatter"
+      ],
       "links": [
         {
           "label": "DOI",
@@ -175,7 +226,9 @@ window.PUBLICATIONS = {
       "authorsHtml": "<strong>B. Gu</strong>, D. Li, Y. Xu, C. Li, and S. Sun",
       "venueHtml": "<em>IEEE Transactions on Vehicular Technology</em>, vol. 72, no. 1, pp. 1343–1348, Jan. 2023.",
       "label": "",
-      "topics": ["backscatter"],
+      "topics": [
+        "backscatter"
+      ],
       "links": []
     },
     {
@@ -184,7 +237,9 @@ window.PUBLICATIONS = {
       "authorsHtml": "<strong>B. Gu</strong>, H. Xie, and D. Li",
       "venueHtml": "<em>IEEE Wireless Communications Letters</em>, vol. 12, no. 6, pp. 1106–1110, Jun. 2023.",
       "label": "",
-      "topics": ["backscatter"],
+      "topics": [
+        "backscatter"
+      ],
       "links": []
     },
     {
@@ -193,7 +248,9 @@ window.PUBLICATIONS = {
       "authorsHtml": "H. Xie, <strong>B. Gu</strong>, D. Li, Z. Lin, and Y. Xu",
       "venueHtml": "<em>IEEE Internet of Things Journal</em>, vol. 10, no. 15, pp. 13264–13280, Aug. 2023.",
       "label": "",
-      "topics": ["reconfigurable"],
+      "topics": [
+        "reconfigurable"
+      ],
       "links": []
     },
     {
@@ -202,7 +259,9 @@ window.PUBLICATIONS = {
       "authorsHtml": "Y. Xu, <strong>B. Gu*</strong>, D. Li, Z. Yang, C. Huang, and K.-K. Wong",
       "venueHtml": "<em>IEEE Transactions on Vehicular Technology</em>, vol. 71, no. 1, pp. 1101–1106, Jan. 2022.",
       "label": "",
-      "topics": ["wireless"],
+      "topics": [
+        "wireless"
+      ],
       "links": []
     },
     {
@@ -211,7 +270,10 @@ window.PUBLICATIONS = {
       "authorsHtml": "Y. Xu, <strong>B. Gu</strong>, R. Q. Hu, D. Li, and H. Zhang",
       "venueHtml": "<em>IEEE Transactions on Vehicular Technology</em>, vol. 70, no. 6, pp. 6200–6205, Jun. 2021.",
       "label": "",
-      "topics": ["mec", "backscatter"],
+      "topics": [
+        "mec",
+        "backscatter"
+      ],
       "links": []
     },
     {
@@ -220,7 +282,9 @@ window.PUBLICATIONS = {
       "authorsHtml": "Y. Xu, <strong>B. Gu</strong>, and D. Li",
       "venueHtml": "<em>IEEE Communications Letters</em>, vol. 25, no. 10, pp. 3209–3213, Oct. 2021.",
       "label": "",
-      "topics": ["backscatter"],
+      "topics": [
+        "backscatter"
+      ],
       "links": []
     }
   ],
@@ -231,7 +295,10 @@ window.PUBLICATIONS = {
       "authorsHtml": "H. Qin, <strong>B. Gu*</strong>, et al.",
       "venueHtml": "IEEE International Conference on Communications Workshops (ICC Workshops), Glasgow, United Kingdom, 2026, pp. 1–6.",
       "label": "",
-      "topics": ["mec", "active-passive"],
+      "topics": [
+        "mec",
+        "active-passive"
+      ],
       "links": []
     },
     {
@@ -240,7 +307,9 @@ window.PUBLICATIONS = {
       "authorsHtml": "H. Qin, <strong>B. Gu*</strong>, X. Yu, H. Xie, Y. Xu, Q. Li, and L. Wang",
       "venueHtml": "2025 IEEE 25th International Conference on Communication Technology (ICCT), Shenyang, China, 2025, pp. 6–11.",
       "label": "",
-      "topics": ["mec"],
+      "topics": [
+        "mec"
+      ],
       "links": []
     },
     {
@@ -249,7 +318,10 @@ window.PUBLICATIONS = {
       "authorsHtml": "X. Yu, D. Li, <strong>B. Gu</strong>, X. Jing, W. Wu, T. Wu, and K. Yu",
       "venueHtml": "GLOBECOM 2025, Taipei, Taiwan, 2025, pp. 5508–5513.",
       "label": "",
-      "topics": ["reconfigurable", "ai"],
+      "topics": [
+        "reconfigurable",
+        "ai"
+      ],
       "links": []
     },
     {
@@ -258,7 +330,9 @@ window.PUBLICATIONS = {
       "authorsHtml": "<strong>B. Gu</strong>, Y. Xu, C. Huang, and R. Q. Hu",
       "venueHtml": "IEEE International Conference on Communications (ICC 2021), Montreal, QC, Canada, 2021, pp. 1–6.",
       "label": "",
-      "topics": ["backscatter"],
+      "topics": [
+        "backscatter"
+      ],
       "links": []
     }
   ],
@@ -269,7 +343,9 @@ window.PUBLICATIONS = {
       "authorsHtml": "徐勇军, <strong>谷博文</strong>, 谢豪, 等.",
       "venueHtml": "电子与信息学报, 43(12): 3621–3628, 2021.",
       "label": "",
-      "topics": ["mec"],
+      "topics": [
+        "mec"
+      ],
       "links": []
     },
     {
@@ -278,7 +354,9 @@ window.PUBLICATIONS = {
       "authorsHtml": "徐勇军, <strong>谷博文</strong>, 杨洋, 等.",
       "venueHtml": "电子与信息学报, 43(08): 2189–2198, 2021.",
       "label": "",
-      "topics": ["wireless"],
+      "topics": [
+        "wireless"
+      ],
       "links": []
     },
     {
@@ -287,7 +365,9 @@ window.PUBLICATIONS = {
       "authorsHtml": "徐勇军, <strong>谷博文</strong>, 陈前斌, 等.",
       "venueHtml": "通信学报, 41(10): 202–210, 2020.",
       "label": "",
-      "topics": ["backscatter"],
+      "topics": [
+        "backscatter"
+      ],
       "links": []
     }
   ]

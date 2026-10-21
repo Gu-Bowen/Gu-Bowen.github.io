@@ -22,3 +22,7 @@ The Publications section now supports Selected/topic/year filters and text searc
 
 ### V5.5
 Added a data-driven **Activities / 学术活动** section for conference participation, talks, academic visits, and professional activities. Maintain entries in `data/activities.js`.
+
+
+### October 2026 update
+Added the IEEE IoT Journal accepted paper, *Journal on Communications* Youth Editorial Board appointment (2027–2029), and two planned conference participations.

@@ -1,6 +1,13 @@
 window.SERVICE = {
   "editorial": [
     {
+      "date": "2027–2029",
+      "venue": "Journal on Communications",
+      "zhVenue": "《通信学报》",
+      "roleEn": "Youth Editorial Board Member",
+      "roleZh": "青年编委"
+    },
+    {
       "date": "2026–2028",
       "venue": "China Communications",
       "zhVenue": "《中国通信》",

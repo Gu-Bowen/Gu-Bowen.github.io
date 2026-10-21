@@ -1,5 +1,25 @@
 window.NEWS = [
   {
+    "date": "OCT 2026",
+    "enHtml": "<strong>Paper accepted.</strong> “Task Offloading via Hybrid Active-Passive Cooperation: Riding on Active Relaying for Backscatter Communication Enhancement” was accepted by <em>IEEE Internet of Things Journal</em>. <strong>B. Gu is the corresponding author.</strong>",
+    "zhHtml": "<strong>论文录用。</strong> “Task Offloading via Hybrid Active-Passive Cooperation: Riding on Active Relaying for Backscatter Communication Enhancement” 被 <em>IEEE Internet of Things Journal</em> 录用，<strong>谷博文为通信作者</strong>。"
+  },
+  {
+    "date": "2027–2029",
+    "enHtml": "<strong>Editorial appointment.</strong> Appointed to the Youth Editorial Board of <em>Journal on Communications</em>.",
+    "zhHtml": "<strong>青年编委。</strong> 担任《通信学报》2027–2029 年青年编委。"
+  },
+  {
+    "date": "NOV 2026",
+    "enHtml": "<strong>Upcoming conference.</strong> Planning to attend the 2026 Conference on Frontier Technologies of Information and Communications in Fuzhou, November 6–8.",
+    "zhHtml": "<strong>会议预告。</strong> 计划于 2026 年 11 月 6–8 日赴福州参加 2026 信息与通信前沿技术大会。"
+  },
+  {
+    "date": "OCT–NOV 2026",
+    "enHtml": "<strong>Upcoming conference.</strong> Planning to attend the 2026 Internet of Things Technology and Applications Conference in Wuxi, October 31–November 2.",
+    "zhHtml": "<strong>会议预告。</strong> 计划于 2026 年 10 月 31 日至 11 月 2 日赴无锡参加 2026 年物联网技术与应用大会。"
+  },
+  {
     "date": "AUG 2026",
     "enHtml": "<strong>New publication.</strong> Our work “HiRoC” on multimodal conversational emotion recognition was published in <em>Journal of King Saud University - Computer and Information Sciences</em>.",
     "zhHtml": "<strong>论文发表。</strong> 多模态对话情感识别工作 “HiRoC” 发表于 <em>Journal of King Saud University - Computer and Information Sciences</em>。"
@@ -18,10 +38,5 @@ window.NEWS = [
     "date": "2026–2028",
     "enHtml": "<strong>Editorial service.</strong> Serving on the Youth Editorial Boards of <em>China Communications</em>, <em>Journal on Internet of Things</em>, <em>Journal of Chongqing University of Posts and Telecommunications</em>, and <em>Advanced Information and Communication</em>, among others.",
     "zhHtml": "<strong>青年编委。</strong> 担任《中国通信》《物联网学报》《重庆邮电大学学报》《Advanced Information and Communication》等期刊青年编委。"
-  },
-  {
-    "date": "NOV 2025",
-    "enHtml": "<strong>New publication.</strong> Our work on multi-chain-of-thought prompt learning for aspect-based sentiment analysis was published in <em>Applied Sciences</em>.",
-    "zhHtml": "<strong>论文发表。</strong> 面向细粒度情感分析的多思维链提示学习工作发表于 <em>Applied Sciences</em>。"
   }
 ];
