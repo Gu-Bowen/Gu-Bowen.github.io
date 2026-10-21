@@ -25,6 +25,32 @@ window.ACTIVITIES = [
     "talkTitle": "",
     "url": ""
   },
+      {
+    "date": "2026.08.28–08.30",
+    "year": 2026,
+    "cityEn": "Jinan",
+    "cityZh": "济南",
+    "eventEn": "2026 China Institute of Communications Scientists’ Blue Ocean Forum & *China Communications* Symposium on Frontier Science and Technology",
+    "eventZh": "2026中国通信学会科学家蓝海论坛暨《中国通信》科技前沿研讨会",
+    "type": "conference",
+    "roleEn": "Conference Participation",
+    "roleZh": "参会",
+    "talkTitle": "",
+    "url": ""
+  },
+    {
+    "date": "2026.08.07–08.09",
+    "year": 2026,
+    "cityEn": "Wuhan",
+    "cityZh": "武汉",
+    "eventEn": "15th IEEE/CIC International Conference on Communications in China (ICCC 2026)",
+    "eventZh": "第十五届IEEE/CIC中国通信国际会议",
+    "type": "conference",
+    "roleEn": "Conference Participation",
+    "roleZh": "参会",
+    "talkTitle": "",
+    "url": ""
+  },
   {
     "date": "2026.04.16–04.19",
     "year": 2026,
@@ -69,8 +95,8 @@ window.ACTIVITIES = [
     "year": 2025,
     "cityEn": "Shenyang",
     "cityZh": "沈阳",
-    "eventEn": "ICCT",
-    "eventZh": "ICCT",
+    "eventEn": "IEEE 26th International Conference on Communication Technology (ICCT)",
+    "eventZh": "第26届IEEE通信技术国际会议",
     "type": "conference",
     "roleEn": "Conference Participation",
     "roleZh": "参会",
