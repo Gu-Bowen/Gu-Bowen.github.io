@@ -55,7 +55,7 @@ window.PUBLICATIONS = {
       "year": "2026",
       "title": "Fairness-Aware Computation Offloading in Wireless-Powered MEC Systems with Cooperative Energy Recycling",
       "authorsHtml": "H. Qin, <strong>B. Gu*</strong>, et al.",
-      "venueHtml": "<em>IEEE Transactions on Mobile Computing</em>, to be published, 2026.",
+      "venueHtml": "<em>IEEE Transactions on Mobile Computing</em>, vol. 25, no. 11, pp. 21330-21344, Nov. 2026.",
       "label": "SELECTED",
       "topics": [
         "mec",
