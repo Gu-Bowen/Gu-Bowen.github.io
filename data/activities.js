@@ -7,8 +7,8 @@ window.ACTIVITIES = [
     "eventEn": "2026 Conference on Frontier Technologies of Information and Communications",
     "eventZh": "2026 信息与通信前沿技术大会",
     "type": "conference",
-    "roleEn": "Planned Conference Participation",
-    "roleZh": "计划参会",
+    "roleEn": "Conference Participation",
+    "roleZh": "参会",
     "talkTitle": "",
     "url": ""
   },
@@ -20,8 +20,8 @@ window.ACTIVITIES = [
     "eventEn": "2026 Internet of Things Technology and Applications Conference",
     "eventZh": "2026 年物联网技术与应用大会",
     "type": "conference",
-    "roleEn": "Planned Conference Participation",
-    "roleZh": "计划参会",
+    "roleEn": "Conference Participation",
+    "roleZh": "参会",
     "talkTitle": "",
     "url": ""
   },
