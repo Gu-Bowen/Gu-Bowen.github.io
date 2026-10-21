@@ -1,12 +1,12 @@
 window.NEWS = [
   {
     "date": "OCT 2026",
-    "enHtml": "<strong>Journal paper.</strong> “Task Offloading via Hybrid Active-Passive Cooperation: Riding on Active Relaying for Backscatter Communication Enhancement” was accepted in <em>IEEE Internet of Things Journal</em>.",
-    "zhHtml": "<strong>论文动态。</strong> “Task Offloading via Hybrid Active-Passive Cooperation: Riding on Active Relaying for Backscatter Communication Enhancement” 被 <em>IEEE Internet of Things Journal</em> 录用。"
+    "enHtml": "<strong>New publication.</strong> “Task Offloading via Hybrid Active-Passive Cooperation: Riding on Active Relaying for Backscatter Communication Enhancement” was accepted in <em>IEEE Internet of Things Journal</em>.",
+    "zhHtml": "<strong>论文发表。</strong> “Task Offloading via Hybrid Active-Passive Cooperation: Riding on Active Relaying for Backscatter Communication Enhancement” 被 <em>IEEE Internet of Things Journal</em> 录用。"
   },
   {
     "date": "2027–2029",
-    "enHtml": "<strong>Editorial service.</strong> Appointed to the Youth Editorial Board of <em>Journal on Communications</em>.",
+    "enHtml": "<strong>Editorial service.</strong> Serving on the Youth Editorial Board of <em>Journal on Communications</em>.  Cheers!",
     "zhHtml": "<strong>青年编委。</strong> 担任《通信学报》2027–2029 年青年编委。"
   },
   {
@@ -26,17 +26,17 @@ window.NEWS = [
   },
   {
     "date": "JUL 2026",
-    "enHtml": "<strong>New review.</strong> Our review on resource management in 6G SAGINs and LLM-enabled agentic decision making was published in <em>Advanced Information and Communication</em>.",
+    "enHtml": "<strong>New publication.</strong> Our review on resource management in 6G SAGINs and LLM-enabled agentic decision making was published in <em>Advanced Information and Communication</em>.",
     "zhHtml": "<strong>论文发表。</strong> 6G 空天地一体化网络资源管理与 LLM 智能体决策综述发表于 <em>Advanced Information and Communication</em>。"
   },
   {
     "date": "2026",
-    "enHtml": "<strong>Journal paper.</strong> “Fairness-Aware Computation Offloading in Wireless-Powered MEC Systems with Cooperative Energy Recycling” is forthcoming in <em>IEEE Transactions on Mobile Computing</em>.",
-    "zhHtml": "<strong>论文动态。</strong> “Fairness-Aware Computation Offloading in Wireless-Powered MEC Systems with Cooperative Energy Recycling” 将发表于 <em>IEEE Transactions on Mobile Computing</em>。"
+    "enHtml": "<strong>New publication.</strong> “Fairness-Aware Computation Offloading in Wireless-Powered MEC Systems with Cooperative Energy Recycling” was published in <em>IEEE Transactions on Mobile Computing</em>.",
+    "zhHtml": "<strong>论文发表。</strong> “Fairness-Aware Computation Offloading in Wireless-Powered MEC Systems with Cooperative Energy Recycling” 发表于 <em>IEEE Transactions on Mobile Computing</em>。"
   },
   {
     "date": "2026–2028",
-    "enHtml": "<strong>Editorial service.</strong> Serving on the Youth Editorial Boards of <em>China Communications</em>, <em>Journal on Internet of Things</em>, <em>Journal of Chongqing University of Posts and Telecommunications</em>, and <em>Advanced Information and Communication</em>, among others.",
+    "enHtml": "<strong>Editorial service.</strong> Serving on the Youth Editorial Boards of <em>China Communications</em>, <em>Journal on Internet of Things</em>, <em>Journal of Chongqing University of Posts and Telecommunications</em>, and <em>Advanced Information and Communication</em>, among others.  Cheers!",
     "zhHtml": "<strong>青年编委。</strong> 担任《中国通信》《物联网学报》《重庆邮电大学学报》《Advanced Information and Communication》等期刊青年编委。"
   }
 ];
