@@ -87,7 +87,7 @@ window.PUBLICATIONS = {
       "year": "2025",
       "title": "Breaking the Interference and Fading Gridlock in Backscatter Communications: State-of-the-Art, Design Challenges, and Future Directions",
       "authorsHtml": "<strong>B. Gu</strong>, D. Li, H. Ding, G. Wang, and C. Tellambura",
-      "venueHtml": "<em>IEEE Communications Surveys &amp; Tutorials</em>, vol. 27, no. 2, pp. 870–911, Apr. 2025.",
+      "venueHtml": "<em>IEEE Communications Surveys &amp; Tutorials</em>, vol. 27, no. 2, pp. 870–911, Apr. 2025. · <strong>ESI Highly Cited Paper</strong>",
       "label": "FEATURED SURVEY",
       "topics": ["backscatter"],
       "links": [
