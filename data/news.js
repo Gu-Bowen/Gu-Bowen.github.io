@@ -1,12 +1,12 @@
 window.NEWS = [
   {
     "date": "OCT 2026",
-    "enHtml": "<strong>Paper accepted.</strong> “Task Offloading via Hybrid Active-Passive Cooperation: Riding on Active Relaying for Backscatter Communication Enhancement” was accepted by <em>IEEE Internet of Things Journal</em>. <strong>B. Gu is the corresponding author.</strong>",
-    "zhHtml": "<strong>论文录用。</strong> “Task Offloading via Hybrid Active-Passive Cooperation: Riding on Active Relaying for Backscatter Communication Enhancement” 被 <em>IEEE Internet of Things Journal</em> 录用，<strong>谷博文为通信作者</strong>。"
+    "enHtml": "<strong>Journal paper.</strong> “Task Offloading via Hybrid Active-Passive Cooperation: Riding on Active Relaying for Backscatter Communication Enhancement” was accepted in <em>IEEE Internet of Things Journal</em>.",
+    "zhHtml": "<strong>论文动态。</strong> “Task Offloading via Hybrid Active-Passive Cooperation: Riding on Active Relaying for Backscatter Communication Enhancement” 被 <em>IEEE Internet of Things Journal</em> 录用。"
   },
   {
     "date": "2027–2029",
-    "enHtml": "<strong>Editorial appointment.</strong> Appointed to the Youth Editorial Board of <em>Journal on Communications</em>.",
+    "enHtml": "<strong>Editorial service.</strong> Appointed to the Youth Editorial Board of <em>Journal on Communications</em>.",
     "zhHtml": "<strong>青年编委。</strong> 担任《通信学报》2027–2029 年青年编委。"
   },
   {
