@@ -1,13 +1,13 @@
 window.NEWS = [
  {
     "date": "NOV 2026",
-    "enHtml": "<strong>Conference.</strong> Attend the 2026 Conference on Frontier Technologies of Information and Communications in Fuzhou, November 6–8.",
-    "zhHtml": "<strong>会议。</strong> 于 2026 年 11 月 6–8 日赴福州参加 2026 信息与通信前沿技术大会。"
+    "enHtml": "<strong>Conference  attendance.</strong> Attend the 2026 Conference on Frontier Technologies of Information and Communications in Fuzhou, November 6–8.",
+    "zhHtml": "<strong>参加会议。</strong> 于 2026 年 11 月 6–8 日赴福州参加 2026 信息与通信前沿技术大会。"
   },
   {
     "date": "OCT–NOV 2026",
-    "enHtml": "<strong>Conference.</strong> Attend the 2026 Internet of Things Technology and Applications Conference in Wuxi, October 31–November 2.",
-    "zhHtml": "<strong>会议。</strong> 于 2026 年 10 月 31 日至 11 月 2 日赴无锡参加 2026 年物联网技术与应用大会。"
+    "enHtml": "<strong>Conference attendance.</strong> Attend the 2026 Internet of Things Technology and Applications Conference in Wuxi, October 31–November 2.",
+    "zhHtml": "<strong>参加会议。</strong> 于 2026 年 10 月 31 日至 11 月 2 日赴无锡参加 2026 年物联网技术与应用大会。"
   },
   {
     "date": "2027–2029",
