@@ -16,6 +16,7 @@
 <section id="students"><div class="kicker"><span data-lang="en">JOIN THE GROUP</span><span data-lang="zh" hidden="">学生与招生</span></div><h2><span data-lang="en">Students &amp; Openings</span><span data-lang="zh" hidden="">学生与招生</span></h2><p class="lead small" data-lang="en">I welcome motivated M.Sc. students interested in wireless communications, information processing, and related emerging research directions.</p><p class="lead small zh-copy" data-lang="zh" hidden="">面向校内外招收通信与信息系统、电子信息等相关方向硕士研究生，欢迎对无线通信、信息处理及相关前沿研究方向感兴趣的同学联系。</p><p class="wide" data-lang="en">Students with self-motivation, active learning ability, responsibility, solid mathematical foundations, and a willingness to engage deeply in research are particularly welcome. I value responsible, individualized, and continuous supervision, and hope to build a collaborative relationship in which both supervisor and students are fully engaged.</p><p class="wide zh-copy" data-lang="zh" hidden="">希望你具备较强的自驱力、主动学习能力和责任心，具有较为扎实的数学基础和良好的逻辑思维能力，并愿意持续投入科研。科研基础并非最重要，更看重持续学习、执行力、主动思考与积极沟通。在学生培养方面，重视认真负责、因材施教和全过程指导，希望师生彼此认真、共同投入、相互成就。</p><blockquote class="student-quote" data-lang="zh" hidden="">“希望师生之间是一个彼此认真、共同投入、相互成就的过程。”</blockquote><p class="callout"><span data-lang="en">Prospective students are encouraged to email a <strong>CV</strong> and <strong>undergraduate transcript</strong> to <a href="mailto:bwgu@xju.edu.cn">bwgu@xju.edu.cn</a> before applying.</span><span data-lang="zh" hidden="">有意加入课题组的同学，请在报考前将<strong>个人简历</strong>和<strong>本科成绩单</strong>发送至 <a href="mailto:bwgu@xju.edu.cn">bwgu@xju.edu.cn</a>。</span></p></section>
 <section id="contact"><div class="kicker"><span data-lang="en">CONTACT</span><span data-lang="zh" hidden="">联系方式</span></div><h2><span data-lang="en">Contact</span><span data-lang="zh" hidden="">联系方式</span></h2><div class="contact-grid"><div><span>Email</span><p><a href="mailto:bwgu@xju.edu.cn">bwgu@xju.edu.cn</a></p></div><div><span><span data-lang="en">Office &amp; Lab</span><span data-lang="zh" hidden="">办公室与实验室</span></span><p>B212<br/><span data-lang="en">Xinjiang University</span><span data-lang="zh" hidden="">新疆大学</span></p></div><div><span><span data-lang="en">Academic Profiles</span><span data-lang="zh" hidden="">学术主页</span></span><p><a href="https://scholar.google.com/citations?user=HVV62k4AAAAJ&amp;hl=en">Google Scholar ↗</a><br/><a href="https://dblp.org/pid/297/0855">DBLP ↗</a><br/><a href="https://orcid.org/0000-0001-9506-328X">ORCID ↗</a></p></div></div></section>
 
+
 <section id="visitor-statistics">
   <div class="kicker">
     <span data-lang="en">WEBSITE STATISTICS</span>
@@ -37,19 +38,17 @@
   </p>
 
   <div class="visitor-counter">
-    <span class="visitor-icon">↗</span>
-    <div>
+    <span class="visitor-icon" aria-hidden="true">↗</span>
+    <div class="visitor-content">
       <div class="visitor-label">
-        <span data-lang="en">Total page views</span>
+        <span data-lang="en">Total visits</span>
         <span data-lang="zh" hidden>累计访问量</span>
       </div>
-      <div id="visitor-count">
-        <span data-lang="en">Loading statistics...</span>
-        <span data-lang="zh" hidden>正在加载统计数据……</span>
-      </div>
+      <div id="visitor-count" aria-live="polite">Loading...</div>
     </div>
   </div>
 </section>
+
 
 
 </main><footer><div class="wrap footer-grid"><div><strong>Bowen Gu / 谷博文</strong><span data-lang="en">School of Computer Science and Technology · Xinjiang University</span><span data-lang="zh" hidden="">新疆大学 · 计算机科学与技术学院</span><span>B212 · <a href="mailto:bwgu@xju.edu.cn">bwgu@xju.edu.cn</a></span></div><div class="footer-links"><a href="https://scholar.google.com/citations?user=HVV62k4AAAAJ&amp;hl=en">Google Scholar</a><a href="https://dblp.org/pid/297/0855">DBLP</a><a href="https://orcid.org/0000-0001-9506-328X">ORCID</a></div><div class="footer-meta"><span>© <span id="year"></span> Bowen Gu</span><span data-lang="en">Last updated: September 2026</span><span data-lang="zh" hidden="">最后更新：2026年9月</span></div></div></footer><script src="data/news.js"></script><script src="data/publications.js"></script><script src="data/projects.js"></script><script src="data/service.js"></script><script src="data/activities.js"></script><script src="assets/main.js"></script>
@@ -59,20 +58,39 @@
 </body></html>
 
 
+
 <script>
-(function waitForGoatCounter() {
-  if (
-    window.goatcounter &&
-    typeof window.goatcounter.visit_count === "function"
-  ) {
-    window.goatcounter.visit_count({
-      append: "#visitor-count",
-      path: "TOTAL",
-      no_branding: true
-    });
-  } else {
-    setTimeout(waitForGoatCounter, 100);
-  }
+(function () {
+  const container = document.getElementById("visitor-count");
+  if (!container) return;
+
+  let attempts = 0;
+
+  const timer = setInterval(function () {
+    attempts++;
+
+    if (
+      window.goatcounter &&
+      typeof window.goatcounter.visit_count === "function"
+    ) {
+      clearInterval(timer);
+      container.textContent = "";
+
+      window.goatcounter.visit_count({
+        append: "#visitor-count",
+        path: "TOTAL",
+        no_branding: true
+      });
+    }
+
+    if (attempts >= 100) {
+      clearInterval(timer);
+      if (container.textContent.trim() === "Loading...") {
+        container.textContent = "Statistics temporarily unavailable.";
+      }
+    }
+  }, 100);
 })();
 </script>
+
 
