@@ -88,51 +88,37 @@
 <script src="data/activities.js"></script>
 <script src="assets/main.js"></script>
 
+
 <!-- GoatCounter: record page visits -->
 <script
   data-goatcounter="https://bwgu.goatcounter.com/count"
-  async
   src="https://gc.zgo.at/count.js">
 </script>
 
-<!-- Display the total visitor count -->
+<!-- Display total website visits -->
 <script>
 (function () {
   const container = document.getElementById("visitor-count");
   if (!container) return;
 
-  let attempts = 0;
-
-  const timer = setInterval(function () {
-    attempts++;
-
-    if (
-      window.goatcounter &&
-      typeof window.goatcounter.visit_count === "function"
-    ) {
-      clearInterval(timer);
-      container.textContent = "";
-
-      window.goatcounter.visit_count({
-        append: "#visitor-count",
-        path: "TOTAL",
-        no_branding: true
-      });
-    }
-
-    if (attempts >= 100) {
-      clearInterval(timer);
-
-      if (container.textContent.trim() === "Loading...") {
-        container.textContent = "Statistics temporarily unavailable.";
-      }
-    }
-  }, 100);
+  if (
+    window.goatcounter &&
+    typeof window.goatcounter.visit_count === "function"
+  ) {
+    window.goatcounter.visit_count({
+      append: "#visitor-count",
+      path: "TOTAL",
+      no_branding: true
+    });
+  } else {
+    container.textContent = "Statistics temporarily unavailable.";
+  }
 })();
 </script>
 
 </body>
 </html>
+
 
 
 
