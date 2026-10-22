@@ -38,29 +38,64 @@
   </p>
 
  
-<div id="visitor-count" aria-live="polite">
-  <iframe
-    src="https://bwgu.goatcounter.com/counter/TOTAL.html"
-    title="Total website visits"
-    width="300"
-    height="120"
-    loading="lazy"
-    style="border:0; max-width:100%;"
-  ></iframe>
+
+<div class="visitor-counter">
+  <span class="visitor-icon" aria-hidden="true">↗</span>
+  <div class="visitor-content">
+    <div class="visitor-label">
+      <span data-lang="en">Total visits</span>
+      <span data-lang="zh" hidden>累计访问量</span>
+    </div>
+    <div id="visitor-count" aria-live="polite">Loading...</div>
+  </div>
 </div>
+
 
 </section>
 
 
 
-</main><footer><div class="wrap footer-grid"><div><strong>Bowen Gu / 谷博文</strong><span data-lang="en">School of Computer Science and Technology · Xinjiang University</span><span data-lang="zh" hidden="">新疆大学 · 计算机科学与技术学院</span><span>B212 · <a href="mailto:bwgu@xju.edu.cn">bwgu@xju.edu.cn</a></span></div><div class="footer-links"><a href="https://scholar.google.com/citations?user=HVV62k4AAAAJ&amp;hl=en">Google Scholar</a><a href="https://dblp.org/pid/297/0855">DBLP</a><a href="https://orcid.org/0000-0001-9506-328X">ORCID</a></div><div class="footer-meta"><span>© <span id="year"></span> Bowen Gu</span><span data-lang="en">Last updated: September 2026</span><span data-lang="zh" hidden="">最后更新：2026年9月</span></div></div></footer><script src="data/news.js"></script><script src="data/publications.js"></script><script src="data/projects.js"></script><script src="data/service.js"></script><script src="data/activities.js"></script><script src="assets/main.js"></script>
-<!-- GoatCounter analytics: records page visits; it does not display a public counter by itself. -->
-<script data-goatcounter="https://bwgu.goatcounter.com/count"
-        async src="https://gc.zgo.at/count.js"></script>
-</body></html>
 
+</main>
 
+<footer>
+  <div class="wrap footer-grid">
+    <div>
+      <strong>Bowen Gu / 谷博文</strong>
+      <span data-lang="en">School of Computer Science and Technology · Xinjiang University</span>
+      <span data-lang="zh" hidden>新疆大学 · 计算机科学与技术学院</span>
+      <span>B212 · <a href="mailto:bwgu@xju.edu.cn">bwgu@xju.edu.cn</a></span>
+    </div>
 
+    <div class="footer-links">
+      <a href="https://scholar.google.com/citations?user=HVV62k4AAAAJ&amp;hl=en">Google Scholar</a>
+      <a href="https://dblp.org/pid/297/0855">DBLP</a>
+      <a href="https://orcid.org/0000-0001-9506-328X">ORCID</a>
+    </div>
+
+    <div class="footer-meta">
+      <span>© <span id="year"></span> Bowen Gu</span>
+      <span data-lang="en">Last updated: October 2026</span>
+      <span data-lang="zh" hidden>最后更新：2026年10月</span>
+    </div>
+  </div>
+</footer>
+
+<script src="data/news.js"></script>
+<script src="data/publications.js"></script>
+<script src="data/projects.js"></script>
+<script src="data/service.js"></script>
+<script src="data/activities.js"></script>
+<script src="assets/main.js"></script>
+
+<!-- GoatCounter: record page visits -->
+<script
+  data-goatcounter="https://bwgu.goatcounter.com/count"
+  async
+  src="https://gc.zgo.at/count.js">
+</script>
+
+<!-- Display the total visitor count -->
 <script>
 (function () {
   const container = document.getElementById("visitor-count");
@@ -87,6 +122,7 @@
 
     if (attempts >= 100) {
       clearInterval(timer);
+
       if (container.textContent.trim() === "Loading...") {
         container.textContent = "Statistics temporarily unavailable.";
       }
@@ -94,5 +130,9 @@
   }, 100);
 })();
 </script>
+
+</body>
+</html>
+
 
 
