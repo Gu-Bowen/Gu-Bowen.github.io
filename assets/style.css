@@ -8,3 +8,46 @@
 
 /* V5.5 academic activities */
 .activities{margin-top:28px;border-top:1px solid var(--line)}.activity-year{font-family:Georgia,"Noto Serif SC","Songti SC",serif;font-size:22px;font-weight:700;color:var(--ink);padding:28px 0 7px}.activities article{display:grid;grid-template-columns:150px 1fr;gap:28px;padding:18px 0;border-top:1px solid var(--line)}.activity-year+article{border-top:0}.activity-date{font-size:12.5px;font-weight:760;color:var(--accent);padding-top:3px}.activity-place{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}.activities h3{font-size:18px;margin:0 0 7px}.activity-role{display:inline-block;font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:#61717e;border:1px solid var(--line);padding:3px 6px}.activity-role-featured{color:var(--accent);border-color:#cbdde8;background:var(--soft)}.activity-talk{margin:8px 0 0;color:var(--muted);font-style:italic}@media(max-width:760px){.activities article{grid-template-columns:1fr;gap:5px}.activity-year{padding-top:23px}.activity-date{padding-top:0}}
+
+
+/* Visitor statistics */
+.visitor-counter {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+  padding: 20px 22px;
+  max-width: 360px;
+  border: 1px solid var(--line);
+  background: var(--soft);
+}
+
+.visitor-icon {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid var(--line);
+  color: var(--accent);
+  font-size: 22px;
+}
+
+.visitor-label {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+#visitor-count {
+  margin-top: 4px;
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+#visitor-count div {
+  margin: 0;
+}
+
+#visitor-statistics {
+  padding-bottom: 52px;
+}
