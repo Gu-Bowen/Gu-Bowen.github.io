@@ -1,17 +1,17 @@
 window.NEWS = [
    {
     "date": "Nov 2026",
-    "enHtml": "<strong>New publication.</strong> “AdaPSI-Net: Prompt-Conditioned Multi-Rate Phase-Shift Information Compression for IRS Systems” has been accepted in <em>IEEE Journal on Selected Areas in Communications</em>.",
-    "zhHtml": "<strong>论文发表。</strong> “AdaPSI-Net: Prompt-Conditioned Multi-Rate Phase-Shift Information Compression for IRS Systems” 被 <em>IEEE Journal on Selected Areas in Communications</em> 录用。"
+    "enHtml": "<strong>New publication.</strong> Our work “AdaPSI-Net: Prompt-Conditioned Multi-Rate Phase-Shift Information Compression for IRS Systems” has been accepted in <em>IEEE Journal on Selected Areas in Communications</em>.",
+    "zhHtml": "<strong>论文发表。</strong>  “AdaPSI-Net: Prompt-Conditioned Multi-Rate Phase-Shift Information Compression for IRS Systems” 被 <em>IEEE Journal on Selected Areas in Communications</em> 录用。"
   }, 
  {
     "date": "Nov 2026",
-    "enHtml": "<strong>New publication.</strong> “When Backscatter-assisted ISAC Meets LAWNs: Joint Beamforming and UAV Trajectory Design” has been accepted in <em>IEEE Internet of Things Journal</em>.",
+    "enHtml": "<strong>New publication.</strong>Our work “When Backscatter-assisted ISAC Meets LAWNs: Joint Beamforming and UAV Trajectory Design” has been accepted in <em>IEEE Internet of Things Journal</em>.",
     "zhHtml": "<strong>论文发表。</strong> “When Backscatter-assisted ISAC Meets LAWNs: Joint Beamforming and UAV Trajectory Design” 被 <em>IEEE Internet of Things Journal</em> 录用。"
   }, 
  {
     "date": "Nov 2026",
-    "enHtml": "<strong>New publication.</strong> “PRAC-AR: Augmented Reality Scene Expansion and Adaptation for Vision–Language–Action Models” has been accepted in <em>IEEE Open Journal on Immersive Displays</em>.",
+    "enHtml": "<strong>New publication.</strong> Our work “PRAC-AR: Augmented Reality Scene Expansion and Adaptation for Vision–Language–Action Models” has been accepted in <em>IEEE Open Journal on Immersive Displays</em>.",
     "zhHtml": "<strong>论文发表。</strong> “PRAC-AR: Augmented Reality Scene Expansion and Adaptation for Vision–Language–Action Models” 被 <em>IEEE Open Journal on Immersive Displays</em> 录用。"
   },
  {
