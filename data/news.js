@@ -31,7 +31,7 @@ window.NEWS = [
   },
   {
     "date": "OCT 2026",
-    "enHtml": "<strong>New publication.</strong> “Task Offloading via Hybrid Active-Passive Cooperation: Riding on Active Relaying for Backscatter Communication Enhancement” has been accepted in <em>IEEE Internet of Things Journal</em>.",
+    "enHtml": "<strong>New publication.</strong> Our work “Task Offloading via Hybrid Active-Passive Cooperation: Riding on Active Relaying for Backscatter Communication Enhancement” has been accepted in <em>IEEE Internet of Things Journal</em>.",
     "zhHtml": "<strong>论文发表。</strong> “Task Offloading via Hybrid Active-Passive Cooperation: Riding on Active Relaying for Backscatter Communication Enhancement” 被 <em>IEEE Internet of Things Journal</em> 录用。"
   },
   {
