@@ -1,17 +1,17 @@
 window.NEWS = [
    {
     "date": "Nov 2026",
-    "enHtml": "<strong>New publication.</strong> “AdaPSI-Net: Prompt-Conditioned Multi-Rate Phase-Shift Information Compression for IRS Systems” was accepted in <em>IEEE Journal on Selected Areas in Communications</em>.",
+    "enHtml": "<strong>New publication.</strong> “AdaPSI-Net: Prompt-Conditioned Multi-Rate Phase-Shift Information Compression for IRS Systems” has been accepted in <em>IEEE Journal on Selected Areas in Communications</em>.",
     "zhHtml": "<strong>论文发表。</strong> “AdaPSI-Net: Prompt-Conditioned Multi-Rate Phase-Shift Information Compression for IRS Systems” 被 <em>IEEE Journal on Selected Areas in Communications</em> 录用。"
   }, 
  {
     "date": "Nov 2026",
-    "enHtml": "<strong>New publication.</strong> “When Backscatter-assisted ISAC Meets LAWNs: Joint Beamforming and UAV Trajectory Design” was accepted in <em>IEEE Internet of Things Journal</em>.",
+    "enHtml": "<strong>New publication.</strong> “When Backscatter-assisted ISAC Meets LAWNs: Joint Beamforming and UAV Trajectory Design” has been accepted in <em>IEEE Internet of Things Journal</em>.",
     "zhHtml": "<strong>论文发表。</strong> “When Backscatter-assisted ISAC Meets LAWNs: Joint Beamforming and UAV Trajectory Design” 被 <em>IEEE Internet of Things Journal</em> 录用。"
   }, 
  {
     "date": "Nov 2026",
-    "enHtml": "<strong>New publication.</strong> “PRAC-AR: Augmented Reality Scene Expansion and Adaptation for Vision–Language–Action Models” was accepted in <em>IEEE Open Journal on Immersive Displays</em>.",
+    "enHtml": "<strong>New publication.</strong> “PRAC-AR: Augmented Reality Scene Expansion and Adaptation for Vision–Language–Action Models” has been accepted in <em>IEEE Open Journal on Immersive Displays</em>.",
     "zhHtml": "<strong>论文发表。</strong> “PRAC-AR: Augmented Reality Scene Expansion and Adaptation for Vision–Language–Action Models” 被 <em>IEEE Open Journal on Immersive Displays</em> 录用。"
   },
  {
@@ -31,22 +31,22 @@ window.NEWS = [
   },
   {
     "date": "OCT 2026",
-    "enHtml": "<strong>New publication.</strong> “Task Offloading via Hybrid Active-Passive Cooperation: Riding on Active Relaying for Backscatter Communication Enhancement” was accepted in <em>IEEE Internet of Things Journal</em>.",
+    "enHtml": "<strong>New publication.</strong> “Task Offloading via Hybrid Active-Passive Cooperation: Riding on Active Relaying for Backscatter Communication Enhancement” has been accepted in <em>IEEE Internet of Things Journal</em>.",
     "zhHtml": "<strong>论文发表。</strong> “Task Offloading via Hybrid Active-Passive Cooperation: Riding on Active Relaying for Backscatter Communication Enhancement” 被 <em>IEEE Internet of Things Journal</em> 录用。"
   },
   {
     "date": "AUG 2026",
-    "enHtml": "<strong>New publication.</strong> Our work “HiRoC” on multimodal conversational emotion recognition was published in <em>Journal of King Saud University - Computer and Information Sciences</em>.",
+    "enHtml": "<strong>New publication.</strong> Our work “HiRoC” on multimodal conversational emotion recognition has been published in <em>Journal of King Saud University - Computer and Information Sciences</em>.",
     "zhHtml": "<strong>论文发表。</strong> 多模态对话情感识别工作 “HiRoC” 发表于 <em>Journal of King Saud University - Computer and Information Sciences</em>。"
   },
   {
     "date": "JUL 2026",
-    "enHtml": "<strong>New publication.</strong> Our review on resource management in 6G SAGINs and LLM-enabled agentic decision making was published in <em>Advanced Information and Communication</em>.",
+    "enHtml": "<strong>New publication.</strong> Our review on resource management in 6G SAGINs and LLM-enabled agentic decision making has been published in <em>Advanced Information and Communication</em>.",
     "zhHtml": "<strong>论文发表。</strong> 6G 空天地一体化网络资源管理与 LLM 智能体决策综述发表于 <em>Advanced Information and Communication</em>。"
   },
   {
     "date": "2026",
-    "enHtml": "<strong>New publication.</strong> “Fairness-Aware Computation Offloading in Wireless-Powered MEC Systems with Cooperative Energy Recycling” was published in <em>IEEE Transactions on Mobile Computing</em>.",
+    "enHtml": "<strong>New publication.</strong> “Fairness-Aware Computation Offloading in Wireless-Powered MEC Systems with Cooperative Energy Recycling” has been published in <em>IEEE Transactions on Mobile Computing</em>.",
     "zhHtml": "<strong>论文发表。</strong> “Fairness-Aware Computation Offloading in Wireless-Powered MEC Systems with Cooperative Energy Recycling” 发表于 <em>IEEE Transactions on Mobile Computing</em>。"
   },
   {
