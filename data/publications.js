@@ -4,7 +4,7 @@ window.PUBLICATIONS = {
       "year": "2026",
       "title": "When Backscatter-assisted ISAC Meets LAWNs: Joint Beamforming and UAV Trajectory Design",
       "authorsHtml": "H. Zhang, <strong>B. Gu*</strong>, H. Xie, X. Yu, M. Wu, and Y. Xu",
-      "venueHtml": "<em>IEEE Internet of Things Journal</em>, accepted in October 2026. DOI: 10.1109/JIOT.2026.3757000.",
+      "venueHtml": "<em>IEEE Internet of Things Journal</em>, accepted in November 2026. DOI: 10.1109/JIOT.2026.3757000.",
       "label": "SELECTED",
       "topics": [
         "backscatter",
