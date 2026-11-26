@@ -17,7 +17,7 @@ window.PUBLICATIONS = {
           "url": "https://doi.org/10.1109/JIOT.2026.3757000"
         }
       ]
-    },  
+    }, 
     {
       "year": "2026",
       "title": "Task Offloading via Hybrid Active-Passive Cooperation: Riding on Active Relaying for Backscatter Communication Enhancement",
