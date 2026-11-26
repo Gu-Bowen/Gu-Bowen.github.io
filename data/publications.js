@@ -2,6 +2,24 @@ window.PUBLICATIONS = {
   "journals": [
     {
       "year": "2026",
+      "title": "When Backscatter-assisted ISAC Meets LAWNs: Joint Beamforming and UAV Trajectory Design",
+      "authorsHtml": "H. Zhang, <strong>B. Gu*</strong>, H. Xie, X. Yu, M. Wu, and Y. Xu",
+      "venueHtml": "<em>IEEE Internet of Things Journal</em>, accepted in October 2026. DOI: 10.1109/JIOT.2026.3757000.",
+      "label": "SELECTED",
+      "topics": [
+        "backscatter",
+        "active-passive",
+        "isac"
+      ],
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1109/JIOT.2026.3757000"
+        }
+      ]
+    },
+    {
+      "year": "2026",
       "title": "Task Offloading via Hybrid Active-Passive Cooperation: Riding on Active Relaying for Backscatter Communication Enhancement",
       "authorsHtml": "H. Qin, <strong>B. Gu*</strong>, D. Li, H. Xie, L. Wang, and X. Tao",
       "venueHtml": "<em>IEEE Internet of Things Journal</em>, accepted in October 2026. DOI: 10.1109/JIOT.2026.3743282.",
